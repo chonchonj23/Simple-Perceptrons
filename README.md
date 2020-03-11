@@ -1,6 +1,5 @@
-This is a simple AND perceptron taught in Udacity's Machine Learning Nanodegree.
+Here are two simple perceptions that had been taught in Udacity's Machine Learning Nanodegree.
 
-Feel free to change the weights and bias in the Python program, and see what happens. 
-Note that test_inputs array is given, and correct_outputs array comes directly from perceptron defintion.
+Perceptron contains an activation function (which can be interpreted as some sort of mapping function) that transforms inputs into certain output value based on specific activation rule.
 
-I may upload other simple perceptrons in the same repo in near future.
+Feel free to change the weights and bias in the Python program, and see what happens. Note that test_inputs array is given, and correct_outputs array comes directly from perceptron activation, which in turn is defined via the weights and bias that we can adjust in these two simple examples.
