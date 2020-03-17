@@ -9,6 +9,6 @@ For the linear perceptron algorithm, note that:
 - we are using X1 and X2 to predict Y ( via a step function )
 - If a point is correctly classified, do nothing
 - If a point (e.g. with coordinates X1,X2) is wrongly classified, do one of the following: 
-  => If the point is classified positive, but it has a negative label, subtract αX1, αX2, and α from the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)
-  => If the point is classified negative, but it has a positive label, add αX1, αX2, and α to the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)
-  => α is the learning rate
+  &rarr; If the point is classified positive, but it has a negative label, subtract αX1, αX2, and α from the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)
+  &rarr; If the point is classified negative, but it has a positive label, add αX1, αX2, and α to the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)
+  &rarr; α is the learning rate
