@@ -11,7 +11,7 @@ For the linear perceptron algorithm, note that:
 - If a point (e.g. with coordinates X1,X2) is wrongly classified, do one of the following:<br /> 
   &rarr; If the point is classified positive, but it has a negative label, subtract αX1, αX2, and α from the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)\
   &rarr; If the point is classified negative, but it has a positive label, add αX1, αX2, and α to the weights (e.g. w1 & w2) and bias term (e.g. b) respectively, given that we are at the point (X1,X2)\
-  &rarr; α is the learning rate
+  Here α is the learning rate
   
   
   
